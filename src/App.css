@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+h1 {
+  color: #FFA500; /* Orange-yellow tone */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #FF6347; /* Tomato red */
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  color: #DC143C; /* Crimson */
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+h4 {
+  color: #8B0000; /* Dark red */
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  color: #B22222; /* Firebrick */
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+h6 {
+  color: #CD5C5C; /* Indian red */
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  color: #333333; /* Dark gray */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+small {
+  color: #555555; /* Medium gray */
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+  }
+  h6 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+  small {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  small {
+    font-size: 0.75rem;
+  }
+}

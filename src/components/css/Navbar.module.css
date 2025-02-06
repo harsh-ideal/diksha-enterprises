@@ -1,0 +1,26 @@
+.customNavbar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #ddd;
+}
+
+.customNavbarToggle {
+    border:none !important;
+    box-shadow: none !important;
+    border-radius: 4px;
+    width: 30px; 
+    height: 30px;
+  }
+  
+  .customNavbarToggleIcon {
+    background-image: none;
+    border: none;
+  }
+  
+ 
+  .customNavbarToggleIcon::before {
+    content: "☰"; 
+    color: #fff; 
+    font-size: 24px;
+  }
+  

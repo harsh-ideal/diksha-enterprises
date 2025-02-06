@@ -1,0 +1,127 @@
+
+  
+  .primaryButton {
+    background-color: #D4AF37; /* Golden Yellow */
+    color: white;
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .secondaryButton {
+    background-color: #FFFFFF; /* White */
+    color: #D4AF37; /* Golden Yellow */
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: 2px solid #D4AF37;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .outlinedButton {
+    background: transparent;
+    color: #999; /* White */
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: 2px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .gradientButton {
+    background: linear-gradient(90deg, #D62B2B, #FF6347); /* Red Gradient */
+    color: white;
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .roundedButton {
+    background-color: #D62B2B; /* Dark Red */
+    color: white;
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+
+  .disabled {
+    background-color: #d3d3d3;
+    color: white;
+    padding: 0.65rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: not-allowed;
+  }
+  
+  .textButton {
+    background-color: transparent;
+    color: #0056b3;
+    padding: 0.65rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .textButton:hover {
+    color: #003a7f;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .primaryButton, .secondaryButton, .outlinedButton, .gradientButton, .roundedButton, .disabled, .textButton {
+      width: 100%; /* Make buttons fill full width on smaller screens */
+      padding: 0.75rem 1.25rem; /* Increase padding for better touch targets */
+      font-size: 1.1rem; /* Slightly larger font size for better readability */
+      margin: o.31rem 0; /* Add margin between buttons */
+    }
+  
+    .primaryButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .secondaryButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .outlinedButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .gradientButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .roundedButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .disabled {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  
+    .textButton {
+      font-size: 1.1rem;
+      padding: 0.75rem 2.05rem;
+    }
+  }
